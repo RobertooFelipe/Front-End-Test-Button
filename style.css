@@ -1,0 +1,40 @@
+/*
+INSTRUCTIONS
+1. Make a copy of this codepen (you may have to create a free codepen account to do so)
+2. Using CSS properties alone, make the HTML button match as closely as possible, the image provided. 
+3. Do not add or modify the HTML in any way
+4. Don't worry if it's not 100% perfect, get as close as you can
+3. Provide a link to your codepen
+*/
+
+button {
+    font-weight: 700;
+    text-shadow: 0.3px 0.5px 0 #fff;
+    font-size: 27px;
+    border-style: none;
+    margin: 35px;
+    border-radius: 10px;
+    box-shadow: -0.5px 1px 2px 1px #05050585,
+        0px 0px 0px 7px #CBCBCB,
+        0px 0px 0px 9px #fff,
+        0px 0px 0px 11px #666666,
+        -1px 1px 3px 9px #05050565;
+    background-image: linear-gradient(0deg, #cacaca 48%, #E0E0E0 52%);
+    text-transform: uppercase;
+    color: #555555;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+}
+
+button::after {
+    content: "★";
+    color: #888888;
+    margin-left: 5px;
+}
+
+button::before {
+    content: '★';
+    color: #888888;
+    margin-right: 5px;
+}
